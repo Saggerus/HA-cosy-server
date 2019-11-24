@@ -1,0 +1,16 @@
+{
+  "name": "cosy_server",
+  "version": "1.0.0",
+  "description": "control cosy using puppeteer",
+  "main": "index_mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wayne saggers",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^2.0.0"
+  }
+}
