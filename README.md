@@ -1,3 +1,4 @@
+ HEAD
 # Cosy MQTT Server for Home Assistant
 
 GeoSuite do not currently offer a public API to allow control of the Cosy Smart Thermostat.  This project uses puppeteer running on nodejs to interact with the Cosy web app and accepts mqtt commands from home assistant in order to query the current state of your cosy system, or change the setting.  Hibernate is not yet supported (just because I've not got around to it), but slumber, comfy and cosy all work.
@@ -151,3 +152,6 @@ Restart Home Assistant and you should now be good to go
 
 
 
+# HA-cosy-server
+Cosy Smart Thermostat Server to allow control via Home Assistant
+>>>>>>> 5180ae27becdb782d2b23b38ace691c50b2c4228

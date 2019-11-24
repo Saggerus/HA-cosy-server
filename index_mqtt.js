@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const mqtt = require('mqtt')
-const client = mqtt.connect('mqtt://192.168.1.199')
+const client = mqtt.connect('mqtt://<ip_address_of_mqtt_server')
 
 
 //Get Setting
